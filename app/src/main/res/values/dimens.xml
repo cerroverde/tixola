@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="espacio_norma_1">16dp</dimen>
+
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_14">14dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_18">18dp</dimen>
+
+</resources>
