@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.castrelos.tixola.fragment.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_newPointFragment"
+            app:destination="@id/newPointFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.castrelos.tixola.fragment.ProfilesFragment"
+        android:label="Profile Fragment"
+        tools:layout="@layout/fragment_profiles">
+        <action
+            android:id="@+id/action_profileFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newPointFragment"
+        android:name="com.castrelos.tixola.fragment.NewPointFragment"
+        android:label="fragment_new_point"
+        tools:layout="@layout/fragment_new_point">
+        <action
+            android:id="@+id/action_newPointFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_newPointFragment_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.castrelos.tixola.fragment.cameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" >
+        <action
+            android:id="@+id/action_cameraFragment_to_newPointFragment"
+            app:destination="@id/newPointFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_on_camera"
+        android:name="com.castrelos.tixola.fragment.fragment_on_camera"
+        android:label="fragment_on_camera"
+        tools:layout="@layout/fragment_on_camera" />
+
+</navigation>

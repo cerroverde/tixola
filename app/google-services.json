@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "51804373728",
+    "project_id": "tixola-4ec0e",
+    "storage_bucket": "tixola-4ec0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51804373728:android:45a4cd81b2b02fa49bc685",
+        "android_client_info": {
+          "package_name": "com.castrelos.tixola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51804373728-angsodslc6p4rs9iucqfcskaf96hlqt3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.castrelos.tixola",
+            "certificate_hash": "f8f60d4cdf9430840756d4d789b7460d37928ee4"
+          }
+        },
+        {
+          "client_id": "51804373728-sre52sk7u3lfl49u2n706hvjrrh9aud8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.castrelos.tixola",
+            "certificate_hash": "434353a25ea36e09d7499d77cc5967def75c59ff"
+          }
+        },
+        {
+          "client_id": "51804373728-84d7gv0jede84c4pu48gul3qjfrp0h6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBh4Ee0G_1b1gZbuwRdpvyaAhAVhMW5nM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51804373728-84d7gv0jede84c4pu48gul3qjfrp0h6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

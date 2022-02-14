@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Tixola</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="menu_user">Mi perfil</string>
+    <string name="about">Sobre tixola</string>
+    <string name="menu_header_text">Tixola</string>
+    <string name="instagram_url">\@tixolapp</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="home">Inicio</string>
+    <string name="new_point">Nuevo point</string>
+    <string name="last_visited">Ultímos points visitados</string>
+    <string name="recommend">Recomendación</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Profile Fragment -->
+    <string name="name">Nombre</string>
+    <string name="phone">Móvil</string>
+    <string name="mail">Correo/User ID</string>
+    <string name="email_sample">alejandrolopezrnv@gmail.com</string>
+    <string name="password">Cambiar contraseña</string>
+    <string name="profile_password_repeate">Repetir contraseña</string>
+    <string name="profile_new_password">Nueva Contraseña</string>
+    <string name="change_password_title">Cambiar contraseña</string>
+    <string name="change_password_message">Introduzca la nueva contraseña</string>
+    <string name="save_changes">Guardar cambios</string>
+
+
+    <string name="oAuthClientID">51804373728-84d7gv0jede84c4pu48gul3qjfrp0h6t.apps.googleusercontent.com</string>
+    <string name="loading">Procesando...</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="preview_area">Previsualización</string>
+    <string name="capture">Capture</string>
+    <string name="nuevo_point">Nuevo Point</string>
+    <string name="take_picture">Escanear factura</string>
+    <string name="upload_file">Leer archivo</string>
+
+</resources>

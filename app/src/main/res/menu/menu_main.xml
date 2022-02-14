@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:orderInCategory="100"
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"
+            app:showAsAction="never"/>
+        <item
+            android:orderInCategory="101"
+            android:id="@+id/nav_new_point"
+            android:icon="@drawable/ic_add_point"
+            android:title="@string/new_point"
+            app:showAsAction="never"/>
+
+        <item
+            android:orderInCategory="102"
+            android:id="@+id/nav_last_visited"
+            android:icon="@drawable/ic_booked"
+            android:title="@string/last_visited"
+            app:showAsAction="never"/>
+
+        <item
+            android:orderInCategory="103"
+            android:id="@+id/nav_recomendation"
+            android:icon="@drawable/ic_recommend"
+            android:title="@string/recommend"
+            app:showAsAction="never"/>
+
+    </group>
+    <item android:title="Perfil"
+        android:orderInCategory="120">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/user"
+                    android:title="Mi Perfil" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Exprésate"
+        android:orderInCategory="130">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Comparte" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate"
+                android:title="Calificanos" />
+        </menu>
+    </item>
+    <item android:title="Herramientas"
+        android:orderInCategory="140">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_about"
+                    android:orderInCategory="110"
+                    android:title="@string/about"
+                    android:icon="@drawable/ic_spa"
+                    android:iconTint="@color/white"
+                    app:showAsAction="never"/>
+
+                <item
+                    android:id="@+id/menu_settings"
+                    android:icon="@drawable/ic_app_settings"
+                    android:orderInCategory="100"
+                    android:title="@string/menu_settings"
+                    app:showAsAction="never"/>
+            </group>
+        </menu>
+    </item>
+</menu>
